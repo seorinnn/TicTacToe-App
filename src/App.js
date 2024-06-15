@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Board from "./components/Board";
+import styles from "./App.css";
 
 function App() {
   const [history, setHistory] = useState([{ squares: Array(9).fill(null) }]);
@@ -62,7 +63,9 @@ function App() {
     const desc = move ? "Go to move #" + move : "Go to game start";
     return (
       <li key={move}>
-        <button onClick={() => jumpTo(move)}>{desc}</button>
+        <button className="move-button" onClick={() => jumpTo(move)}>
+          {desc}
+        </button>
       </li>
     );
   });
@@ -80,7 +83,7 @@ function App() {
       </div>
       <div className="game-info">gameinfo</div>
       <div className="status">{status}</div>
-      <ol>{moves}</ol>
+      <ol style={{ listStyle: "none" }}>{moves}</ol>
     </div>
   );
 }
