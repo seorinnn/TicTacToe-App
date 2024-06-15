@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/seorinnn/TicTacToe-App.git/static/css/main.441a6819.css",
+    "main.js": "/seorinnn/TicTacToe-App.git/static/js/main.ba8f4afa.js",
+    "static/js/453.163f6166.chunk.js": "/seorinnn/TicTacToe-App.git/static/js/453.163f6166.chunk.js",
+    "index.html": "/seorinnn/TicTacToe-App.git/index.html",
+    "main.441a6819.css.map": "/seorinnn/TicTacToe-App.git/static/css/main.441a6819.css.map",
+    "main.ba8f4afa.js.map": "/seorinnn/TicTacToe-App.git/static/js/main.ba8f4afa.js.map",
+    "453.163f6166.chunk.js.map": "/seorinnn/TicTacToe-App.git/static/js/453.163f6166.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.441a6819.css",
+    "static/js/main.ba8f4afa.js"
+  ]
+}
